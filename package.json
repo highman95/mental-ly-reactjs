@@ -5,6 +5,7 @@
   "dependencies": {
     "@material-ui/core": "^4.10.0",
     "@material-ui/icons": "^4.9.1",
+    "@reduxjs/toolkit": "^1.6.0",
     "@testing-library/jest-dom": "^4.2.4",
     "@testing-library/react": "^9.3.2",
     "@testing-library/user-event": "^7.1.2",
@@ -12,6 +13,7 @@
     "enzyme-adapter-react-16": "^1.15.2",
     "react": "^16.13.1",
     "react-dom": "^16.13.1",
+    "react-redux": "^7.2.4",
     "react-router-dom": "^5.2.0",
     "react-scripts": "3.4.1"
   },
@@ -27,18 +29,18 @@
     "rules": {
       "react/jsx-indent-props": [
         "error",
-          2
+        2
       ],
       "react/jsx-indent": [
         "error",
-          2
+        2
       ],
       "indent": [
         "error",
-          2
+        2
       ],
-      "quotes":"off",
-      "jsx-quotes":"off",
+      "quotes": "off",
+      "jsx-quotes": "off",
       "max-len": [
         "error",
         {
